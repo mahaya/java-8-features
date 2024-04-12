@@ -51,13 +51,13 @@ public class Stream {
 	private static void filter(List<Student> students) {
 		System.out.println("######## Executing filter() :######## ");
 		// Print all the students who lives in Pune
-		System.out.println("*** Students who lives in Pune *** ");
+		System.out.println("*** Students who lives in NY *** ");
 		students.stream()
-				.filter(student -> "Pune".equals(student.getCity()))
+				.filter(student -> "NY".equals(student.getCity()))
 				.forEach(System.out::println);
 		
-		// Find the student whose name is Saurabh and return null if not found
-		System.out.println("*** Students whos name is Saurabh *** ");
+		// Find the student whose name is Mahaya and return null if not found
+		System.out.println("*** Students whos name is Mahaya *** ");
 		Student stud = students.stream()
 				.filter(student -> MAHAYA.equals(student.getName()))
 				.findAny()
@@ -84,7 +84,7 @@ public class Stream {
 		System.out.println("######## Executing peek() :######## ");
 		students.stream()
 				.peek(stud -> {System.out.println("Processing Student Name : "+ stud.getName());})
-				.filter(student -> "Mumbai".equals(student.getCity()))
+				.filter(student -> "TX".equals(student.getCity()))
 				.peek(stud -> { System.out.println("Filtered Student Name :" + stud.getName());})
 				.forEach(System.out::println);
 		System.out.println("######## Ending the execution of peek() ######## ");
