@@ -11,7 +11,7 @@ import com.onlyfullstack.util.JavaInputFixture;
 
 public class Stream {
 	
-	private static final String SAURABH = "Saurabh";
+	private static final String MAHAYA = "Mahaya";
 
 	public static void main(String[] args) {
 		List<Student> students = JavaInputFixture.createList();
@@ -25,11 +25,11 @@ public class Stream {
 		System.out.println("######## Executing mapAndCollect() : ######## ");
 		// get the age of Student whose name is Saurabh
 		int age = students.stream()
-						  .filter(student -> SAURABH.equals(student.getName()))
+						  .filter(student -> MAHAYA.equals(student.getName()))
 						  .map(Student::getAge)
 						  .findAny()
 						  .orElse(0);
-		System.out.printf("*** Age of %s is %d\n",SAURABH, age);
+		System.out.printf("*** Age of %s is %d\n",MAHAYA, age);
 		
 		Set<String> names = students.stream()
 									.map(Student::getName) // this will convert the Student Stream into String Stream by 
@@ -59,7 +59,7 @@ public class Stream {
 		// Find the student whose name is Saurabh and return null if not found
 		System.out.println("*** Students whos name is Saurabh *** ");
 		Student stud = students.stream()
-				.filter(student -> SAURABH.equals(student.getName()))
+				.filter(student -> MAHAYA.equals(student.getName()))
 				.findAny()
 				.orElse(null); // it will return null if filter does find any object matching the criteria 
 		
@@ -69,7 +69,7 @@ public class Stream {
 		Student stud2 = students.stream()
 				.filter( new Predicate<Student>() {
 					public boolean test(Student student) {
-						return SAURABH.equals(student.getName());
+						return MAHAYA.equals(student.getName());
 					}}
 				)
 				.findAny()

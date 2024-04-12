@@ -1,0 +1,14 @@
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/lambdas/IConnection.java
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/stream/Stream.java
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/stream/ShortCircuit.java
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/lambdas/MethodReference.java
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/util/JavaInputFixture.java
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/bean/Student.java
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/stream/AdvanceCollectors.java
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/bean/GraphicsCard.java
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/bean/GraphicsMemory.java
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/lambdas/Lambda.java
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/stream/IntermediateVsTerminal.java
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/bean/SmartPhone.java
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/optional/OptionalFeature.java
+/workspaces/java-8-features/src/main/java/com/onlyfullstack/stream/CollectionsVsStreams.java
