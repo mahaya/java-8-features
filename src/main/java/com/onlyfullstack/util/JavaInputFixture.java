@@ -20,7 +20,7 @@ public class JavaInputFixture {
 		Student student9 = new Student("Roman", "NY", 2, new String[] {"ReactJS","JavaScript","Fidler"});
 		Student student10 = new Student("Randy", "TX", 17, new String[] {"Java","Spring Cloud","Spring Data"});
 		
-		return Arrays.asList(new Student[] {student1, student2, student3, student4, student5});
+		return Arrays.asList(new Student[] {student1, student2, student3, student4, student5,student5, student7, student8, student9, student10});
 	}
 
 }
