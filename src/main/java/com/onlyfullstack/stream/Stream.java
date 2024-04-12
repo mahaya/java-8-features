@@ -23,7 +23,7 @@ public class Stream {
 
 	private static void mapAndCollect(List<Student> students) {
 		System.out.println("######## Executing mapAndCollect() : ######## ");
-		// get the age of Student whose name is Saurabh
+		// get the age of Student whose name is Mahaya
 		int age = students.stream()
 						  .filter(student -> MAHAYA.equals(student.getName()))
 						  .map(Student::getAge)
